@@ -9,12 +9,7 @@ app.config(function ($routeProvider) {
 
 	$routeProvider.when("/Subscription/Signup", {
 		templateUrl: '/scripts/app/pages/Subscription/Signup.html',
-		controller: 'subController'
-	});
-
-	$routeProvider.when("/Employee/Signup", {
-		templateUrl: '/scripts/app/pages/Employee/Signup.html',
-		controller: 'employeeController'
+		controller: 'subscribeController'
 	});
 
 	$routeProvider.when("/Employee/Login", {
@@ -22,43 +17,13 @@ app.config(function ($routeProvider) {
 		controller: 'employeeController'
 	});
 
-	$routeProvider.when("Subscriptions/new", {
-		templateUrl: '/scripts/app/pages/Subscription/new',
+	$routeProvider.when("Subscriptions", {
+		templateUrl: '/scripts/app/pages/Subscription.html',
 		controller: 'subController'
 	});
 
-	$routeProvider.when("Subscriptions/{:subID}", {
-		templateUrl: '/scripts/app/pages/Subscription/Subscription',
-		controller: 'subController'
-	});
-
-	$routeProvider.when("Subscriptions/{:subID}", {
-		templateUrl: '/scripts/app/pages/Subscription/update',
-		controller: 'subController'
-	});
-
-	$routeProvider.when("Subscriptions/:subID", {
-		templateUrl: '/scripts/app/pages/Subscription/delete',
-		controller: 'subController'
-	});
-
-	$routeProvider.when("Products/new", {
-		templateUrl: '/scripts/app/pages/Products/new',
-		controller: 'productController'
-	});
-
-	$routeProvider.when("Products/:subID", {
-		templateUrl: '/scripts/app/pages/Products/product',
-		controller: 'productController'
-	});
-
-	$routeProvider.when("Products/:subID", {
-		templateUrl: '/scripts/app/pages/Products/update',
-		controller: 'productController'
-	});
-
-	$routeProvider.when("products/:subID", {
-		templateUrl: '/scripts/app/pages/Products/delete',
+	$routeProvider.when("Products", {
+		templateUrl: '/scripts/app/pages/Product.html',
 		controller: 'productController'
 	});
 
