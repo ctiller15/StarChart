@@ -1,3 +1,27 @@
 ﻿<div>
-    {{title}}
+    <div class="row">
+
+		<div class="col-xs-6">
+
+			<h2>Subscriptions</h2>
+			<ul>
+				<li ng-repeat="sub in subscriptions">
+					<a href="#!/Subscriptions">{{sub}}</a>
+				</li>
+			</ul>
+
+		</div>
+
+		<div class="col-xs-6">
+
+			<h2>Products</h2>
+			<ul>
+				<li ng-repeat="prod in products">
+					<a href="#!/Products">{{prod}}</a>
+				</li>
+			</ul>
+
+		</div>
+
+	</div>
 </div>
