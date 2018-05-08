@@ -251,6 +251,9 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\controllers\home.controller.js" />
+    <Content Include="Scripts\app\controllers\products.controller.js" />
+    <Content Include="Scripts\app\controllers\subscribe.controller.js" />
+    <Content Include="Scripts\app\controllers\subscriptions.controller.js" />
     <Content Include="Scripts\app\pages\dashboard.html" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
     <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
@@ -274,6 +277,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Scripts\app\pages\Employee\Login.html" />
+    <Content Include="Scripts\app\pages\Product.html" />
+    <Content Include="Scripts\app\pages\Subscription.html" />
+    <Content Include="Scripts\app\pages\Subscription\Signup.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
@@ -294,6 +301,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Scripts\app\controllers\employee.controller.js" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />

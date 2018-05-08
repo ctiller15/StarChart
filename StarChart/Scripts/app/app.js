@@ -17,12 +17,12 @@ app.config(function ($routeProvider) {
 		controller: 'employeeController'
 	});
 
-	$routeProvider.when("Subscriptions", {
+	$routeProvider.when("/Subscriptions", {
 		templateUrl: '/scripts/app/pages/Subscription.html',
 		controller: 'subController'
 	});
 
-	$routeProvider.when("Products", {
+	$routeProvider.when("/Products", {
 		templateUrl: '/scripts/app/pages/Product.html',
 		controller: 'productController'
 	});
